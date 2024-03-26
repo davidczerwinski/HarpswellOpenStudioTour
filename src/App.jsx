@@ -17,7 +17,7 @@ function App() {
           </h1>
           </section></div>
           </div>
-          <div className='about' style={{textAlign:'center', width:'50%', padding:'100px 0'}}>
+          <div className='about' style={{textAlign:'center', width:'75%', padding:'100px 0'}}>
             <h4>
             Explore Harpswell's Art Scene:
             </h4>
@@ -29,21 +29,21 @@ function App() {
           <div className='locations'style={{display:'grid', textAlign:'center', padding:'100px', 
           gridTemplateColumns:'1fr 1fr', gridTemplateRows:'.05fr 1fr .05fr', gap:'2rem'
         }}>
-              <h3 className='map-header' style={{margin:'1rem 0', order:1}}>Event Map</h3>
-              <h3 className='sign-header' style={{margin:'1rem 0', order:2}}>Yard Signs</h3>
-            <div className='map-img'style={{height:'inherit', order:3}}>
+              <h3 className='map-header' style={{margin:'1rem 0' }}>Event Map</h3>
+              <h3 className='sign-header' style={{margin:'1rem 0' }}>Yard Signs</h3>
+            <div className='map-img'style={{height:'inherit', }}>
               <img  style={{maxHeight:'100%'}}src ={fakeMap} alt='map of participating locations'/>
             </div>
-            <div style={{height:'inherit', order:5}}>
+            <div style={{height:'inherit'}}>
             <img style={{height:'100%'}}src ={yardsign} alt='yardsign'/>
             </div>
 
-            <p className ='sign-text'style={{ textAlign:'end', margin:'2rem 0 0 0', gridColumnStart:'2', gridColumnEnd:'3', textAlign:'center', color:'white', lineHeight:'1.75', fontSize:'16px', fontFamily: "Helvetica, arial, sans-serif"}}>Look for these signs to find participating galleries!
+            <p className ='sign-text'style={{ textAlign:'center', margin:'2rem 0 0 0', gridColumnStart:'2', gridColumnEnd:'3',  color:'white', lineHeight:'1.75', fontSize:'16px', fontFamily: "Helvetica, arial, sans-serif"}}>Look for these signs to find participating galleries!
 
 </p>
           </div>
 </div>
-          <div className='registration-section' style={{textAlign:'center', display:'flex', flexDirection:'column', gap:'2rem', padding:'100px', width:'60%'}}>
+          <div className='registration-section' style={{padding:'5%',textAlign:'center', display:'flex', flexDirection:'column', gap:'2rem',  width:'75%'}}>
             <h2>Registration and Meet & Greet</h2>
             <p>
             Our idea for an open studio tour sprang from the desire to get acquainted with the local art and craft community.  With that in mind, we’re hosting a “meet and greet” on Saturday, May 18, at Nancy Grice’s studio in Harpswell. If you would like to join the tour and meet your fellow creatives, please email lizstamey@yahoo.com as soon as possible.  
@@ -52,8 +52,8 @@ function App() {
             Artists must accept any and all liability that may be associated with participating in the Harpswell Open Studio Tour. If you may need event insurance coverage, please consult with your insurance agent. Thank you for your consideration.  We look forward to meeting you. 
               </p>
             </div>
-            <div style={{textAlign:'start', width:'100%', fontSize:'12px'}}>
-              <p className='footer'>
+            <div style={{textAlign:'center', width:'100%'}}>
+              <p style={{fontSize:'1rem'}}className='footer'>
               COPYRIGHT © 2024 HARPSWELL OPEN STUDIO TOUR - ALL RIGHTS RESERVED.
                 </p>
               </div>

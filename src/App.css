@@ -44,9 +44,16 @@ p {
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 465px) {
+  .registration-section{
+    width:100%!important;
+    padding:5%!important
+  }
   .hero{
-    text-align:center
+    display:flex;
+    align-items:center;
+    padding:5% !important;
+    text-align:center!important
   }
   .hero p {
     font-size:1.75rem!important
