@@ -34,7 +34,7 @@ function App() {
             <div className='map-img'style={{height:'inherit', }}>
               <img  style={{maxHeight:'100%'}}src ={fakeMap} alt='map of participating locations'/>
             </div>
-            <div style={{height:'inherit'}}>
+            <div className='sign-img'style={{height:'inherit'}}>
             <img style={{height:'100%'}}src ={yardsign} alt='yardsign'/>
             </div>
 

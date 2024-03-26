@@ -78,6 +78,9 @@ p {
   .map-img{
     order:2!important
   }
+  .sign-img{
+    order:4!important
+  }
   .map-header{
     order:1!important
   }
