@@ -39,6 +39,11 @@ p {
   line-height: 1.33;
 }
 
+.locations{
+  display:grid !important;
+
+}
+
 @media (max-width: 320px) {
   .hero{
     text-align:center
