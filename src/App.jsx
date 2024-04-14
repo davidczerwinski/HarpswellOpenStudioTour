@@ -1,6 +1,5 @@
 import './App.css'
-import coastLine from './assets/coastline.jpg'
-import fakeMap from './assets/fakemap.png'
+import fakeMap from './assets/fakemap.svg'
 import yardsign from './assets/yardsign.png'
 
 function App() {
@@ -32,7 +31,7 @@ function App() {
               <h3 className='map-header' style={{margin:'1rem 0' }}>Event Map</h3>
               <h3 className='sign-header' style={{margin:'1rem 0' }}>Yard Signs</h3>
             <div className='map-img'>
-              <img src ={fakeMap} alt='map of participating locations'/>
+              <img src ={fakeMap} width={'100%'} alt='map of participating locations'/>
             </div>
             <div className='sign-img' >
             <img src ={yardsign} alt='yardsign'/>
