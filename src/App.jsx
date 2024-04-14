@@ -27,15 +27,15 @@ function App() {
           </div>
           <div style={{backgroundColor:'rgb(64, 100, 133)'}}>
           <div className='locations'style={{display:'grid', textAlign:'center', padding:'100px', 
-          gridTemplateColumns:'1fr 1fr', gridTemplateRows:'.05fr 1fr .05fr', gap:'2rem'
+          gridTemplateColumns:'1fr 1fr', gridTemplateRows:'.05fr .5fr .05fr', gap:'2rem'
         }}>
               <h3 className='map-header' style={{margin:'1rem 0' }}>Event Map</h3>
               <h3 className='sign-header' style={{margin:'1rem 0' }}>Yard Signs</h3>
-            <div className='map-img'style={{height:'inherit', }}>
-              <img  style={{maxHeight:'100%'}}src ={fakeMap} alt='map of participating locations'/>
+            <div className='map-img'>
+              <img src ={fakeMap} alt='map of participating locations'/>
             </div>
-            <div className='sign-img'style={{height:'inherit'}}>
-            <img style={{height:'100%'}}src ={yardsign} alt='yardsign'/>
+            <div className='sign-img' >
+            <img src ={yardsign} alt='yardsign'/>
             </div>
 
             <p className ='sign-text'style={{ textAlign:'center', margin:'2rem 0 0 0', gridColumnStart:'2', gridColumnEnd:'3',  color:'white', lineHeight:'1.75', fontSize:'16px', fontFamily: "Helvetica, arial, sans-serif"}}>Look for these signs to find participating galleries!
@@ -44,7 +44,7 @@ function App() {
           </div>
 </div>
           <div className='registration-section' style={{padding:'5%',textAlign:'center', display:'flex', flexDirection:'column', gap:'2rem',  width:'75%'}}>
-            <h2>Registration and Meet & Greet</h2>
+            <h4>Registration and Meet & Greet</h4>
             <p>
             Our idea for an open studio tour sprang from the desire to get acquainted with the local art and craft community.  With that in mind, we’re hosting a “meet and greet” on Saturday, May 18, at Nancy Grice’s studio in Harpswell. If you would like to join the tour and meet your fellow creatives, please email lizstamey@yahoo.com as soon as possible.  
               </p>
