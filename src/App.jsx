@@ -36,7 +36,7 @@ function App() {
               Harpswell Open&nbsp;Studio Tour&nbsp;2024
             </h1>
             <div style={{ display: "flex", gap: "1rem" }}>
-              <a href="https://fb.me/e/3ZlMMmEHX" target="_blank">
+              <a href="https://fb.me/e/3RRbCzVp8" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -150,7 +150,7 @@ function App() {
             alignItems: "center",
             flexDirection: "column",
             textAlign: "center",
-            padding: "50px 100px",
+            padding: "50px",
             gap: "2rem",
           }}
         >
@@ -162,22 +162,40 @@ function App() {
               <h3 className="map-header" style={{ margin: "1rem 0" }}>
                 Event Map
               </h3>
-
+<br/>
               <img
                 src={fakeMap}
                 width={"100%"}
                 alt="map of participating locations"
               />
             </div>
-            {/* <div style={{ width: "75%" }}>
+            <div style={{ width: "75%" }}>
               <h3>List of Participating Locations</h3>
+              <br/>
               <img
                 src={tourList}
                 height={"auto"}
                 alt="map of participating locations"
               />
-            </div> */}
+            </div>
           </div>
+          <h3
+            className="brochure"
+            style={{
+              width: "100%",
+              gridColumnEnd: "3",
+              gridColumnStart: "1",
+              textAlign: "center",
+            }}
+          >
+            <a
+              style={{ color: "white"}}
+              href={brochure}
+              download="Harpswell_Tour_Brochure.pdf"
+            >
+              Download Our Brochure
+            </a>
+          </h3>
           <div
             style={{
               display: "flex",
@@ -193,23 +211,7 @@ function App() {
             </h3>
             <img src={yardsign} alt="yardsign" />
           </div>
-          <h3
-            className="brochure"
-            style={{
-              width: "100%",
-              gridColumnEnd: "3",
-              gridColumnStart: "1",
-              textAlign: "center",
-            }}
-          >
-            <a
-              style={{ color: "white", pointerEvents: "none" }}
-              href={brochure}
-              download="Harpswell_Tour_Brochure.pdf"
-            >
-              Brochure will be available July 12th
-            </a>
-          </h3>
+          
         </div>
 
         <p
