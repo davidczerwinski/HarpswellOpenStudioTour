@@ -35,7 +35,7 @@ function App() {
             <h1 className="hero-text">
               Harpswell Open&nbsp;Studio Tour&nbsp;2024
             </h1>
-            <div style={{ display: "flex", gap: "1rem" }}>
+            <div className="icons" style={{ display: "flex", gap: "1rem" }}>
               <a href="https://fb.me/e/3RRbCzVp8" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -207,7 +207,7 @@ function App() {
             className="sign-img"
           >
             <h3 className="sign-header" style={{ margin: "1rem 0" }}>
-              Look for these signs to find participating galleries!
+              Look for these signs to find participating studios!
             </h3>
             <img src={yardsign} alt="yardsign" />
           </div>
@@ -220,6 +220,7 @@ function App() {
             width: "100%",
             textAlign: "center",
             color: "white",
+            padding:'1rem'
           }}
           className="footer"
         >

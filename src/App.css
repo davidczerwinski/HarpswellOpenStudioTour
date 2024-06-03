@@ -56,6 +56,9 @@ p {
   }
 }
 @media (max-width: 465px) {
+  .icons{
+    place-content: center !important;
+  }
   .registration-section {
     width: 100% !important;
     padding: 5% !important;
@@ -85,7 +88,7 @@ p {
     padding: 5% !important;
   }
   .footer {
-    padding: 1rem 0 0 0;
+    /* padding: 1rem 0 0 0; */
     font-size: 0.75rem;
   }
   p {
