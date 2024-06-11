@@ -1,6 +1,6 @@
 import "./App.css";
-import fakeMap from "./assets/HarpsTourMap.jpg";
-import tourList from "./assets/tourList.jpg";
+import map from "./assets/map.jpg";
+import studioList from "./assets/studioList.jpg";
 import yardsign from "./assets/yardsign.png";
 import brochure from "./assets/brochure.pdf";
 
@@ -164,7 +164,7 @@ function App() {
               </h3>
 <br/>
               <img
-                src={fakeMap}
+                src={map}
                 width={"100%"}
                 alt="map of participating locations"
               />
@@ -173,7 +173,7 @@ function App() {
               <h3>List of Participating Locations</h3>
               <br/>
               <img
-                src={tourList}
+                src={studioList}
                 height={"auto"}
                 alt="map of participating locations"
               />
