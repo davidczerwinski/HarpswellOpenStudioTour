@@ -179,6 +179,24 @@ function App() {
               />
             </div>
           </div>
+          <div style = {{display:'flex', width:'100%', alignItems:'center', justifyContent:'space-around'}}>
+          <h3
+            className="brochure"
+            style={{
+              width: "100%",
+              gridColumnEnd: "3",
+              gridColumnStart: "1",
+              textAlign: "center",
+            }}
+          >
+            <a
+              style={{ color: "white"}}
+              href='https://goo.gl/maps/65hJtNUM9bnSvWDr6'
+              target="_blank"
+            >
+              Live Map
+            </a>
+          </h3>
           <h3
             className="brochure"
             style={{
@@ -196,6 +214,7 @@ function App() {
               Download Our Brochure
             </a>
           </h3>
+          </div>
           <div
             style={{
               display: "flex",
