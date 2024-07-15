@@ -179,8 +179,8 @@ function App() {
               />
             </div>
           </div>
-          {/* <div style = {{display:'flex', width:'100%', alignItems:'center', justifyContent:'space-around'}}>
-          <h3
+          <div style = {{display:'flex', width:'100%', alignItems:'center', justifyContent:'space-around'}}>
+          {/* <h3
             className="brochure"
             style={{
               width: "100%",
@@ -196,7 +196,7 @@ function App() {
             >
               Live Map
             </a>
-          </h3>
+          </h3> */}
           <h3
             className="brochure"
             style={{
@@ -214,7 +214,7 @@ function App() {
               Download Our Brochure
             </a>
           </h3>
-          </div> */}
+          </div>
           <div
             style={{
               display: "flex",
