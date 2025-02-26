@@ -30,13 +30,13 @@ function App() {
           <section className="hero-section">
             <p style={{ color: "white", fontSize: "2rem" }}>
               {" "}
-              July 13th & 14th &nbsp;
+              July 12-13 &nbsp;
             </p>
             <h1 className="hero-text">
-              Harpswell Open&nbsp;Studio Tour&nbsp;2024
+              Harpswell Open&nbsp;Studio Tour&nbsp;2025
             </h1>
             <div className="icons" style={{ display: "flex", gap: "1rem" }}>
-              <a href="https://fb.me/e/3RRbCzVp8" target="_blank">
+              <a href="https://www.facebook.com/HarpswellOpenStudioTour" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -125,8 +125,8 @@ function App() {
         style={{ textAlign: "center", width: "75%", padding: "50px 0" }}
       >
         <p style={{ fonstSize: "22px" }}>
-          Join us in Harpswell for our first ever Open Studio Tour, July 13-14,
-          2024. Wander through Harpswell Neck, Sebascodegan Island, Cundy's
+          Join us in Harpswell for our first ever Open Studio Tour, July 12-13,
+          2025. Wander through Harpswell Neck, Sebascodegan Island, Cundy's
           Harbor, and Orr's and Bailey Islands, enjoying this unique opportunity
           to visit artists in their studios and galleries. Engage directly with
           creators, learn their stories, inspirations, and methods, and perhaps
@@ -158,7 +158,8 @@ function App() {
             className="maplocations"
             style={{ display: "flex", gap: "2rem", placeContent: "center" }}
           >
-            <div style={{ width: "75%" }}>
+            <div><h3>Check back in June for event map and list of participating locations!</h3></div>
+            {/* <div style={{ width: "75%" }}>
               <h3 className="map-header" style={{ margin: "1rem 0" }}>
                 Event Map
               </h3>
@@ -177,7 +178,7 @@ function App() {
                 height={"auto"}
                 alt="map of participating locations"
               />
-            </div>
+            </div> */}
           </div>
           <div style = {{display:'flex', width:'100%', alignItems:'center', justifyContent:'space-around'}}>
           {/* <h3
@@ -204,15 +205,16 @@ function App() {
               gridColumnEnd: "3",
               gridColumnStart: "1",
               textAlign: "center",
+              color:"white"
             }}
           >
-            <a
+            {/* <a
               style={{ color: "white"}}
               href={brochure}
               download="Harpswell_Tour_Brochure.pdf"
-            >
-              Download Our Brochure
-            </a>
+            > */}
+              Download Our Brochure after June 1
+            {/* </a> */}
           </h3>
           </div>
           <div
