@@ -36,7 +36,10 @@ function App() {
               Harpswell Open&nbsp;Studio Tour&nbsp;2025
             </h1>
             <div className="icons" style={{ display: "flex", gap: "1rem" }}>
-              <a href="https://www.facebook.com/HarpswellOpenStudioTour" target="_blank">
+              <a
+                href="https://www.facebook.com/HarpswellOpenStudioTour"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -125,7 +128,7 @@ function App() {
         style={{ textAlign: "center", width: "75%", padding: "50px 0" }}
       >
         <p style={{ fonstSize: "22px" }}>
-          Join us in Harpswell for our first ever Open Studio Tour, July 12-13,
+          Join us for our second annual Harpswell Open Studio Tour, July 12-13,
           2025. Wander through Harpswell Neck, Sebascodegan Island, Cundy's
           Harbor, and Orr's and Bailey Islands, enjoying this unique opportunity
           to visit artists in their studios and galleries. Engage directly with
@@ -158,7 +161,12 @@ function App() {
             className="maplocations"
             style={{ display: "flex", gap: "2rem", placeContent: "center" }}
           >
-            <div><h3>Check back in June for event map and list of participating locations!</h3></div>
+            <div>
+              <h3>
+                Check back in June for event map and list of participating
+                locations!
+              </h3>
+            </div>
             {/* <div style={{ width: "75%" }}>
               <h3 className="map-header" style={{ margin: "1rem 0" }}>
                 Event Map
@@ -180,8 +188,15 @@ function App() {
               />
             </div> */}
           </div>
-          <div style = {{display:'flex', width:'100%', alignItems:'center', justifyContent:'space-around'}}>
-          {/* <h3
+          <div
+            style={{
+              display: "flex",
+              width: "100%",
+              alignItems: "center",
+              justifyContent: "space-around",
+            }}
+          >
+            {/* <h3
             className="brochure"
             style={{
               width: "100%",
@@ -198,24 +213,23 @@ function App() {
               Live Map
             </a>
           </h3> */}
-          <h3
-            className="brochure"
-            style={{
-              width: "100%",
-              gridColumnEnd: "3",
-              gridColumnStart: "1",
-              textAlign: "center",
-              color:"white"
-            }}
-          >
-            {/* <a
+            <h3
+              className="brochure"
+              style={{
+                width: "100%",
+                gridColumnEnd: "3",
+                gridColumnStart: "1",
+                textAlign: "center",
+                color: "white",
+              }}
+            >
+              {/* <a
               style={{ color: "white"}}
               href={brochure}
               download="Harpswell_Tour_Brochure.pdf"
             > */}
-              Download Our Brochure after June 1
-            {/* </a> */}
-          </h3>
+              Download Our Brochure after June 1{/* </a> */}
+            </h3>
           </div>
           <div
             style={{
@@ -232,7 +246,6 @@ function App() {
             </h3>
             <img src={yardsign} alt="yardsign" />
           </div>
-          
         </div>
 
         <p
@@ -241,7 +254,7 @@ function App() {
             width: "100%",
             textAlign: "center",
             color: "white",
-            padding:'1rem'
+            padding: "1rem",
           }}
           className="footer"
         >
