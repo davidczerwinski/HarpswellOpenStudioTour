@@ -228,7 +228,7 @@ function App() {
               href={brochure}
               download="Harpswell_Tour_Brochure.pdf"
             >
-              Download Our Brochure!
+              Download Our Brochure
               </a>
             </h3>
           </div>
