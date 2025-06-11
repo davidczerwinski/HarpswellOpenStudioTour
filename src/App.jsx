@@ -161,13 +161,13 @@ function App() {
             className="maplocations"
             style={{ display: "flex", gap: "2rem", placeContent: "center" }}
           >
-            <div>
+            {/* <div>
               <h3>
                 Check back in June for event map and list of participating
                 locations!
               </h3>
-            </div>
-            {/* <div style={{ width: "75%" }}>
+            </div> */}
+            <div style={{ width: "75%" }}>
               <h3 className="map-header" style={{ margin: "1rem 0" }}>
                 Event Map
               </h3>
@@ -186,7 +186,7 @@ function App() {
                 height={"auto"}
                 alt="map of participating locations"
               />
-            </div> */}
+            </div>
           </div>
           <div
             style={{
@@ -223,12 +223,13 @@ function App() {
                 color: "white",
               }}
             >
-              {/* <a
+              <a
               style={{ color: "white"}}
               href={brochure}
               download="Harpswell_Tour_Brochure.pdf"
-            > */}
-              Download Our Brochure after June 1{/* </a> */}
+            >
+              Download Our Brochure!
+              </a>
             </h3>
           </div>
           <div
