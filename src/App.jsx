@@ -30,10 +30,10 @@ function App() {
           <section className="hero-section">
             <p style={{ color: "white", fontSize: "2rem" }}>
               {" "}
-              July 12-13 &nbsp;
+              July 18-19 &nbsp;
             </p>
             <h1 className="hero-text">
-              Harpswell Open&nbsp;Studio Tour&nbsp;2025
+              Harpswell Open&nbsp;Studio Tour&nbsp;2026
             </h1>
             <div className="icons" style={{ display: "flex", gap: "1rem" }}>
               <a
@@ -128,8 +128,8 @@ function App() {
         style={{ textAlign: "center", width: "75%", padding: "50px 0" }}
       >
         <p style={{ fonstSize: "22px" }}>
-          Join us for our second annual Harpswell Open Studio Tour, July 12-13,
-          2025. Wander through Harpswell Neck, Sebascodegan Island, Cundy's
+          Join us for our third annual Harpswell Open Studio Tour, July 18-19,
+          2026. Wander through Harpswell Neck, Sebascodegan Island, Cundy's
           Harbor, and Orr's and Bailey Islands, enjoying this unique opportunity
           to visit artists in their studios and galleries. Engage directly with
           creators, learn their stories, inspirations, and methods, and perhaps
@@ -157,17 +157,16 @@ function App() {
             gap: "2rem",
           }}
         >
+          <div>
+              <h3>
+                Please check back in mid-June for 2026 map and brochure.
+              </h3>
+            </div>
           <div
             className="maplocations"
             style={{ display: "flex", gap: "2rem", placeContent: "center" }}
           >
-            {/* <div>
-              <h3>
-                Check back in June for event map and list of participating
-                locations!
-              </h3>
-            </div> */}
-            <div style={{ width: "75%" }}>
+                        <div style={{ width: "75%" }}>
               <h3 className="map-header" style={{ margin: "1rem 0" }}>
                 Event Map
               </h3>
