@@ -125,7 +125,7 @@ function App() {
       </div>
       <div
         className="about"
-        style={{ textAlign: "center", width: "75%", padding: "50px 0" }}
+        style={{ textAlign: "center", width: "75%", padding: "50px 0 1rem 0" }}
       >
         <p style={{ fonstSize: "22px" }}>
           Join us for our third annual Harpswell Open Studio Tour, July 18-19,
@@ -143,6 +143,17 @@ function App() {
           every taste and ability level here. Prepare to be inspired as you
           explore the diverse talents that define our town's artistic spirit!
         </p>
+         
+      <h4 className="sign-header" style={{
+            fontSize: "1.2rem",
+            width: "100%",
+            textAlign: "center",
+            color: "black",
+            // margin: "1rem 0",
+            padding:"1rem 0 0 0"
+          }}>
+              Contact us at <a><u style={{color:"blue"}}> harpswellopenstudiotour@gmail.com </u></a> if your studio would like to featured next year!
+            </h4>
       </div>
       <div style={{ backgroundColor: "rgb(64, 100, 133)" }}>
         <div
@@ -230,20 +241,9 @@ function App() {
             <img src={yardsign} alt="yardsign" />
           </div>
         </div>
-          <p className="sign-header" style={{
-            fontSize: ".9rem",
-            width: "100%",
-            textAlign: "center",
-            color: "white",
-            padding:"1rem",
-            margin: "1rem 0",
-          }}>
-              Contact us at harpswellopenstudiotour@gmail.com if your studio would like to featured next year!
-            </p>
-
         <p
           style={{
-            fontSize: ".8rem",
+            fontSize: "1rem",
             width: "100%",
             textAlign: "center",
             color: "white",
