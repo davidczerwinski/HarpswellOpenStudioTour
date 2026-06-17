@@ -1,8 +1,8 @@
 import "./App.css";
-import map from "./assets/map.jpg";
-import studioList from "./assets/studioList.jpg";
+import map from "./assets/Harpswell_Tour_Map.jpg";
+import studioList from "./assets/Harpswell_Tour_Studio_List.jpg";
 import yardsign from "./assets/yardsign.png";
-import brochure from "./assets/brochure.pdf";
+import brochure from "./assets/Harpswell_Tour_Brochure.pdf";
 
 function App() {
   return (
@@ -157,11 +157,11 @@ function App() {
             gap: "2rem",
           }}
         >
-          <div>
+          {/* <div>
               <h3>
                 Please check back in mid-June for 2026 map and brochure.
               </h3>
-            </div>
+            </div> */}
           <div
             className="maplocations"
             style={{ display: "flex", gap: "2rem", placeContent: "center" }}
@@ -195,23 +195,6 @@ function App() {
               justifyContent: "space-around",
             }}
           >
-            {/* <h3
-            className="brochure"
-            style={{
-              width: "100%",
-              gridColumnEnd: "3",
-              gridColumnStart: "1",
-              textAlign: "center",
-            }}
-          >
-            <a
-              style={{ color: "white"}}
-              href='https://goo.gl/maps/65hJtNUM9bnSvWDr6'
-              target="_blank"
-            >
-              Live Map
-            </a>
-          </h3> */}
             <h3
               className="brochure"
               style={{
@@ -247,10 +230,20 @@ function App() {
             <img src={yardsign} alt="yardsign" />
           </div>
         </div>
+          <p className="sign-header" style={{
+            fontSize: ".9rem",
+            width: "100%",
+            textAlign: "center",
+            color: "white",
+            padding:"1rem",
+            margin: "1rem 0",
+          }}>
+              Contact us at harpswellopenstudiotour@gmail.com if your studio would like to featured next year!
+            </p>
 
         <p
           style={{
-            fontSize: "1rem",
+            fontSize: ".8rem",
             width: "100%",
             textAlign: "center",
             color: "white",
