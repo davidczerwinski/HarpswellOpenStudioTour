@@ -143,18 +143,8 @@ function App() {
           every taste and ability level here. Prepare to be inspired as you
           explore the diverse talents that define our town's artistic spirit!
         </p>
-         
-      <h4 className="sign-header" style={{
-            fontSize: "1.2rem",
-            width: "100%",
-            textAlign: "center",
-            color: "black",
-            // margin: "1rem 0",
-            padding:"1rem 0 0 0"
-          }}>
-              Contact us at <a><u style={{color:"blue"}}> harpswellopenstudiotour@gmail.com </u></a> if your studio would like to featured next year!
-            </h4>
       </div>
+      <br/>
       <div style={{ backgroundColor: "rgb(64, 100, 133)" }}>
         <div
           className="locations"
@@ -236,11 +226,21 @@ function App() {
             className="sign-img"
           >
             <h3 className="sign-header" style={{ margin: "1rem 0" }}>
-              Look for these signs to find participating studios!
+              Look for these signs to find participating studios
             </h3>
             <img src={yardsign} alt="yardsign" />
           </div>
         </div>
+        <p className="footer" style={{
+            fontSize: "1.2rem",
+            width: "100%",
+            textAlign: "center",
+            color: "white",
+            // margin: "1rem 0",
+            padding:"1rem 0 0 0"
+          }}>
+            Local artists contact harpswellopenstudiotour@gmail.com for information.
+            </p>
         <p
           style={{
             fontSize: "1rem",
